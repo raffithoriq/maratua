@@ -1,0 +1,35 @@
+.bradcam_area {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.bradcam_text {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+}
+
+.bradcam_text img {
+    width: 100%; /* Atur agar gambar mengisi lebar kontainer */
+    height: auto; /* Atur agar gambar dapat diukur secara proporsional */
+}
+
+.bradcam_text h3 {
+    font-size: 3rem;
+    margin: 0;
+}
