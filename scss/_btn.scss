@@ -1,0 +1,21 @@
+.black_btn {
+    background: #000000;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 28px;
+    font-family: $font1; /* Jika $font1 adalah variabel yang sudah didefinisikan sebelumnya */
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 0; /* Menggunakan border-radius untuk mengatur sudut tombol */
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s; /* Menggunakan transition untuk efek hover */
+    cursor: pointer;
+}
+
+/* Efek hover */
+.black_btn:hover {
+    background: #4BA8FD;
+    color: #fff;
+}

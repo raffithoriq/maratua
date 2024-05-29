@@ -1,0 +1,71 @@
+.contact_info_area {
+    padding: 0 0 100px 0;
+  
+    .cotact_info {
+      @media #{$mobile_device}, #{$tablet_device} {
+        margin-bottom: 30px;
+      }
+  
+      .section_title {
+        // Tambahkan gaya untuk judul jika diperlukan
+      }
+  
+      .address_info {
+        margin-top: 25px;
+  
+        h4 {
+          font-size: 20px;
+          font-weight: 400;
+        }
+  
+        .Address {
+          margin: 27px 0 33px 0;
+  
+          li {
+            font-size: 16px;
+            font-weight: 400;
+            color: #727272;
+            margin-bottom: 10px;
+  
+            a {
+              color: #727272;
+            }
+          }
+        }
+  
+        .socail_links {
+          text-align: left;
+  
+          @media #{$mobile_device} {
+            margin-top: 30px;
+          }
+  
+          ul {
+            li {
+              display: inline-block;
+  
+              a {
+                font-size: 13px;
+                color: #fff;
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+                text-align: center;
+                background: #c7c7c7;
+                border-radius: 50%; /* Mengganti mixin dengan properti langsung */
+                line-height: 41px !important; /* Memastikan konsistensi ketinggian baris */
+                margin-right: 5px;
+                color: #ffffff;
+  
+                &:hover {
+                  color: #fff !important;
+                  background: #6ebff9;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
